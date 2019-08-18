@@ -1,0 +1,19 @@
+{
+    "blueprint": {
+        "icons": [
+            {
+                "signal": {
+                    "type": "virtual",
+                    "name": "signal-C"
+                },
+                "index": 1
+            },
+            {
+                "signal": {
+                    "type": "virtual",
+                    "name": "signal-8"
+                },
+                "index": 2
+            }
+        ],
+        "entities": [

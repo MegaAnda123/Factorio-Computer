@@ -1,0 +1,20 @@
+            {
+                "entity_number": 5,
+                "name": "constant-combinator",
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "control_behavior": {
+                    "filters": [
+                        {
+                            "signal": {
+                                "type": "virtual",
+                                "name": "signal-3"
+                            },
+                            "count": 1,
+                            "index": 1
+                        }
+                    ]
+                }
+            },
