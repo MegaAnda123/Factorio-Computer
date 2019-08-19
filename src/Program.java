@@ -36,25 +36,30 @@ public class Program {
 
     public void start() {
         intPrintList();
+        number(15,1);
+        number(14,1);
         code(0,"LOAD_A",15);
-        code(1,"INC",0);
-        code(2,"STORE_A",15);
-        code(3,"JUMP",0);
-
+        code(1,"LOAD_B",14);
+        code(2,"ADD",1);
+        code(3,"STORE_A",15);
         finPrintList();
 
         writeToFile(convertToOneString(PrintList));
     }
 
+    public void number(int line, int number) {
+        addCodeLine(line,intToBinary(number,8));
+    }
+
     public void code(int line, String opCode, int address) {
-        boolean[] res = combineArrays(functionToOpCode(opCode),intToBinary(address));
+        boolean[] res = combineArrays(functionToOpCode(opCode),intToBinary(address,4));
         addCodeLine(line,res);
     }
 
-    public boolean[] intToBinary(int number) {
-        final boolean[] ret = new boolean[4];
-        for (int i = 0; i < 4; i++) {
-            ret[4 - 1 - i] = (1 << i & number) != 0;
+    public boolean[] intToBinary(int number, int base) {
+        final boolean[] ret = new boolean[base];
+        for (int i = 0; i < base; i++) {
+            ret[base - 1 - i] = (1 << i & number) != 0;
         }
         return ret;
     }
