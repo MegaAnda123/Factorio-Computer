@@ -22,7 +22,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 0,
-"y": 30
+"y": 0
 },
 "control_behavior": {
 "filters": [
@@ -45,7 +45,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 1,
-"y": 30
+"y": 0
 },
 "control_behavior": {
 "filters": [
@@ -58,8 +58,6 @@
 "index": 1
 }
 ]
-,
-"is_on": false
 }
 }
 ,
@@ -68,7 +66,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 2,
-"y": 30
+"y": 0
 },
 "control_behavior": {
 "filters": [
@@ -91,7 +89,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 3,
-"y": 30
+"y": 0
 },
 "control_behavior": {
 "filters": [
@@ -104,8 +102,6 @@
 "index": 1
 }
 ]
-,
-"is_on": false
 }
 }
 ,
@@ -114,7 +110,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 4,
-"y": 30
+"y": 0
 },
 "control_behavior": {
 "filters": [
@@ -127,8 +123,6 @@
 "index": 1
 }
 ]
-,
-"is_on": false
 }
 }
 ,
@@ -137,7 +131,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 5,
-"y": 30
+"y": 0
 },
 "control_behavior": {
 "filters": [
@@ -150,8 +144,6 @@
 "index": 1
 }
 ]
-,
-"is_on": false
 }
 }
 ,
@@ -160,7 +152,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 6,
-"y": 30
+"y": 0
 },
 "control_behavior": {
 "filters": [
@@ -173,8 +165,6 @@
 "index": 1
 }
 ]
-,
-"is_on": false
 }
 }
 ,
@@ -183,7 +173,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 7,
-"y": 30
+"y": 0
 },
 "control_behavior": {
 "filters": [
@@ -196,6 +186,8 @@
 "index": 1
 }
 ]
+,
+"is_on": false
 }
 }
 ,
@@ -204,7 +196,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 0,
-"y": 28
+"y": 2
 },
 "control_behavior": {
 "filters": [
@@ -227,7 +219,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 1,
-"y": 28
+"y": 2
 },
 "control_behavior": {
 "filters": [
@@ -250,7 +242,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 2,
-"y": 28
+"y": 2
 },
 "control_behavior": {
 "filters": [
@@ -263,8 +255,6 @@
 "index": 1
 }
 ]
-,
-"is_on": false
 }
 }
 ,
@@ -273,7 +263,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 3,
-"y": 28
+"y": 2
 },
 "control_behavior": {
 "filters": [
@@ -286,8 +276,6 @@
 "index": 1
 }
 ]
-,
-"is_on": false
 }
 }
 ,
@@ -296,7 +284,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 4,
-"y": 28
+"y": 2
 },
 "control_behavior": {
 "filters": [
@@ -309,8 +297,6 @@
 "index": 1
 }
 ]
-,
-"is_on": false
 }
 }
 ,
@@ -319,7 +305,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 5,
-"y": 28
+"y": 2
 },
 "control_behavior": {
 "filters": [
@@ -332,8 +318,6 @@
 "index": 1
 }
 ]
-,
-"is_on": false
 }
 }
 ,
@@ -342,7 +326,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 6,
-"y": 28
+"y": 2
 },
 "control_behavior": {
 "filters": [
@@ -365,7 +349,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 7,
-"y": 28
+"y": 2
 },
 "control_behavior": {
 "filters": [
@@ -386,7 +370,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 0,
-"y": 0
+"y": 4
 },
 "control_behavior": {
 "filters": [
@@ -409,7 +393,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 1,
-"y": 0
+"y": 4
 },
 "control_behavior": {
 "filters": [
@@ -432,7 +416,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 2,
-"y": 0
+"y": 4
 },
 "control_behavior": {
 "filters": [
@@ -455,7 +439,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 3,
-"y": 0
+"y": 4
 },
 "control_behavior": {
 "filters": [
@@ -476,7 +460,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 4,
-"y": 0
+"y": 4
 },
 "control_behavior": {
 "filters": [
@@ -497,7 +481,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 5,
-"y": 0
+"y": 4
 },
 "control_behavior": {
 "filters": [
@@ -518,7 +502,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 6,
-"y": 0
+"y": 4
 },
 "control_behavior": {
 "filters": [
@@ -539,7 +523,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 7,
-"y": 0
+"y": 4
 },
 "control_behavior": {
 "filters": [
@@ -552,6 +536,8 @@
 "index": 1
 }
 ]
+,
+"is_on": false
 }
 }
 ,
@@ -560,7 +546,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 0,
-"y": 2
+"y": 6
 },
 "control_behavior": {
 "filters": [
@@ -573,8 +559,6 @@
 "index": 1
 }
 ]
-,
-"is_on": false
 }
 }
 ,
@@ -583,7 +567,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 1,
-"y": 2
+"y": 6
 },
 "control_behavior": {
 "filters": [
@@ -606,7 +590,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 2,
-"y": 2
+"y": 6
 },
 "control_behavior": {
 "filters": [
@@ -627,7 +611,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 3,
-"y": 2
+"y": 6
 },
 "control_behavior": {
 "filters": [
@@ -650,7 +634,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 4,
-"y": 2
+"y": 6
 },
 "control_behavior": {
 "filters": [
@@ -663,6 +647,8 @@
 "index": 1
 }
 ]
+,
+"is_on": false
 }
 }
 ,
@@ -671,7 +657,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 5,
-"y": 2
+"y": 6
 },
 "control_behavior": {
 "filters": [
@@ -692,7 +678,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 6,
-"y": 2
+"y": 6
 },
 "control_behavior": {
 "filters": [
@@ -705,6 +691,8 @@
 "index": 1
 }
 ]
+,
+"is_on": false
 }
 }
 ,
@@ -713,7 +701,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 7,
-"y": 2
+"y": 6
 },
 "control_behavior": {
 "filters": [
@@ -736,7 +724,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 0,
-"y": 4
+"y": 8
 },
 "control_behavior": {
 "filters": [
@@ -749,6 +737,8 @@
 "index": 1
 }
 ]
+,
+"is_on": false
 }
 }
 ,
@@ -757,7 +747,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 1,
-"y": 4
+"y": 8
 },
 "control_behavior": {
 "filters": [
@@ -770,8 +760,6 @@
 "index": 1
 }
 ]
-,
-"is_on": false
 }
 }
 ,
@@ -780,7 +768,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 2,
-"y": 4
+"y": 8
 },
 "control_behavior": {
 "filters": [
@@ -803,7 +791,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 3,
-"y": 4
+"y": 8
 },
 "control_behavior": {
 "filters": [
@@ -824,7 +812,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 4,
-"y": 4
+"y": 8
 },
 "control_behavior": {
 "filters": [
@@ -837,8 +825,6 @@
 "index": 1
 }
 ]
-,
-"is_on": false
 }
 }
 ,
@@ -847,7 +833,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 5,
-"y": 4
+"y": 8
 },
 "control_behavior": {
 "filters": [
@@ -860,8 +846,6 @@
 "index": 1
 }
 ]
-,
-"is_on": false
 }
 }
 ,
@@ -870,7 +854,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 6,
-"y": 4
+"y": 8
 },
 "control_behavior": {
 "filters": [
@@ -883,8 +867,6 @@
 "index": 1
 }
 ]
-,
-"is_on": false
 }
 }
 ,
@@ -893,7 +875,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 7,
-"y": 4
+"y": 8
 },
 "control_behavior": {
 "filters": [
@@ -906,6 +888,8 @@
 "index": 1
 }
 ]
+,
+"is_on": false
 }
 }
 ,
@@ -914,7 +898,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 0,
-"y": 6
+"y": 10
 },
 "control_behavior": {
 "filters": [
@@ -927,8 +911,6 @@
 "index": 1
 }
 ]
-,
-"is_on": false
 }
 }
 ,
@@ -937,7 +919,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 1,
-"y": 6
+"y": 10
 },
 "control_behavior": {
 "filters": [
@@ -958,7 +940,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 2,
-"y": 6
+"y": 10
 },
 "control_behavior": {
 "filters": [
@@ -981,7 +963,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 3,
-"y": 6
+"y": 10
 },
 "control_behavior": {
 "filters": [
@@ -1002,7 +984,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 4,
-"y": 6
+"y": 10
 },
 "control_behavior": {
 "filters": [
@@ -1023,7 +1005,7 @@
 "name": "constant-combinator",
 "position": {
 "x": 5,
-"y": 6
+"y": 10
 },
 "control_behavior": {
 "filters": [
@@ -1036,6 +1018,8 @@
 "index": 1
 }
 ]
+,
+"is_on": false
 }
 }
 ,
@@ -1044,7 +1028,183 @@
 "name": "constant-combinator",
 "position": {
 "x": 6,
-"y": 6
+"y": 10
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-1"
+},
+"count": 1,
+"index": 1
+}
+]
+,
+"is_on": false
+}
+}
+,
+{
+"entity_number": 48,
+"name": "constant-combinator",
+"position": {
+"x": 7,
+"y": 10
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-0"
+},
+"count": 1,
+"index": 1
+}
+]
+}
+}
+,
+{
+"entity_number": 49,
+"name": "constant-combinator",
+"position": {
+"x": 0,
+"y": 12
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-7"
+},
+"count": 1,
+"index": 1
+}
+]
+}
+}
+,
+{
+"entity_number": 50,
+"name": "constant-combinator",
+"position": {
+"x": 1,
+"y": 12
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-6"
+},
+"count": 1,
+"index": 1
+}
+]
+,
+"is_on": false
+}
+}
+,
+{
+"entity_number": 51,
+"name": "constant-combinator",
+"position": {
+"x": 2,
+"y": 12
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-5"
+},
+"count": 1,
+"index": 1
+}
+]
+}
+}
+,
+{
+"entity_number": 52,
+"name": "constant-combinator",
+"position": {
+"x": 3,
+"y": 12
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-4"
+},
+"count": 1,
+"index": 1
+}
+]
+}
+}
+,
+{
+"entity_number": 53,
+"name": "constant-combinator",
+"position": {
+"x": 4,
+"y": 12
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-3"
+},
+"count": 1,
+"index": 1
+}
+]
+,
+"is_on": false
+}
+}
+,
+{
+"entity_number": 54,
+"name": "constant-combinator",
+"position": {
+"x": 5,
+"y": 12
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-2"
+},
+"count": 1,
+"index": 1
+}
+]
+,
+"is_on": false
+}
+}
+,
+{
+"entity_number": 55,
+"name": "constant-combinator",
+"position": {
+"x": 6,
+"y": 12
 },
 "control_behavior": {
 "filters": [
@@ -1061,11 +1221,11 @@
 }
 ,
 {
-"entity_number": 48,
+"entity_number": 56,
 "name": "constant-combinator",
 "position": {
 "x": 7,
-"y": 6
+"y": 12
 },
 "control_behavior": {
 "filters": [
@@ -1078,6 +1238,890 @@
 "index": 1
 }
 ]
+,
+"is_on": false
+}
+}
+,
+{
+"entity_number": 57,
+"name": "constant-combinator",
+"position": {
+"x": 0,
+"y": 14
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-7"
+},
+"count": 1,
+"index": 1
+}
+]
+,
+"is_on": false
+}
+}
+,
+{
+"entity_number": 58,
+"name": "constant-combinator",
+"position": {
+"x": 1,
+"y": 14
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-6"
+},
+"count": 1,
+"index": 1
+}
+]
+}
+}
+,
+{
+"entity_number": 59,
+"name": "constant-combinator",
+"position": {
+"x": 2,
+"y": 14
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-5"
+},
+"count": 1,
+"index": 1
+}
+]
+,
+"is_on": false
+}
+}
+,
+{
+"entity_number": 60,
+"name": "constant-combinator",
+"position": {
+"x": 3,
+"y": 14
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-4"
+},
+"count": 1,
+"index": 1
+}
+]
+}
+}
+,
+{
+"entity_number": 61,
+"name": "constant-combinator",
+"position": {
+"x": 4,
+"y": 14
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-3"
+},
+"count": 1,
+"index": 1
+}
+]
+}
+}
+,
+{
+"entity_number": 62,
+"name": "constant-combinator",
+"position": {
+"x": 5,
+"y": 14
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-2"
+},
+"count": 1,
+"index": 1
+}
+]
+}
+}
+,
+{
+"entity_number": 63,
+"name": "constant-combinator",
+"position": {
+"x": 6,
+"y": 14
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-1"
+},
+"count": 1,
+"index": 1
+}
+]
+,
+"is_on": false
+}
+}
+,
+{
+"entity_number": 64,
+"name": "constant-combinator",
+"position": {
+"x": 7,
+"y": 14
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-0"
+},
+"count": 1,
+"index": 1
+}
+]
+}
+}
+,
+{
+"entity_number": 65,
+"name": "constant-combinator",
+"position": {
+"x": 0,
+"y": 16
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-7"
+},
+"count": 1,
+"index": 1
+}
+]
+}
+}
+,
+{
+"entity_number": 66,
+"name": "constant-combinator",
+"position": {
+"x": 1,
+"y": 16
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-6"
+},
+"count": 1,
+"index": 1
+}
+]
+}
+}
+,
+{
+"entity_number": 67,
+"name": "constant-combinator",
+"position": {
+"x": 2,
+"y": 16
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-5"
+},
+"count": 1,
+"index": 1
+}
+]
+,
+"is_on": false
+}
+}
+,
+{
+"entity_number": 68,
+"name": "constant-combinator",
+"position": {
+"x": 3,
+"y": 16
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-4"
+},
+"count": 1,
+"index": 1
+}
+]
+,
+"is_on": false
+}
+}
+,
+{
+"entity_number": 69,
+"name": "constant-combinator",
+"position": {
+"x": 4,
+"y": 16
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-3"
+},
+"count": 1,
+"index": 1
+}
+]
+,
+"is_on": false
+}
+}
+,
+{
+"entity_number": 70,
+"name": "constant-combinator",
+"position": {
+"x": 5,
+"y": 16
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-2"
+},
+"count": 1,
+"index": 1
+}
+]
+,
+"is_on": false
+}
+}
+,
+{
+"entity_number": 71,
+"name": "constant-combinator",
+"position": {
+"x": 6,
+"y": 16
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-1"
+},
+"count": 1,
+"index": 1
+}
+]
+,
+"is_on": false
+}
+}
+,
+{
+"entity_number": 72,
+"name": "constant-combinator",
+"position": {
+"x": 7,
+"y": 16
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-0"
+},
+"count": 1,
+"index": 1
+}
+]
+}
+}
+,
+{
+"entity_number": 73,
+"name": "constant-combinator",
+"position": {
+"x": 0,
+"y": 18
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-7"
+},
+"count": 1,
+"index": 1
+}
+]
+,
+"is_on": false
+}
+}
+,
+{
+"entity_number": 74,
+"name": "constant-combinator",
+"position": {
+"x": 1,
+"y": 18
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-6"
+},
+"count": 1,
+"index": 1
+}
+]
+}
+}
+,
+{
+"entity_number": 75,
+"name": "constant-combinator",
+"position": {
+"x": 2,
+"y": 18
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-5"
+},
+"count": 1,
+"index": 1
+}
+]
+}
+}
+,
+{
+"entity_number": 76,
+"name": "constant-combinator",
+"position": {
+"x": 3,
+"y": 18
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-4"
+},
+"count": 1,
+"index": 1
+}
+]
+}
+}
+,
+{
+"entity_number": 77,
+"name": "constant-combinator",
+"position": {
+"x": 4,
+"y": 18
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-3"
+},
+"count": 1,
+"index": 1
+}
+]
+}
+}
+,
+{
+"entity_number": 78,
+"name": "constant-combinator",
+"position": {
+"x": 5,
+"y": 18
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-2"
+},
+"count": 1,
+"index": 1
+}
+]
+}
+}
+,
+{
+"entity_number": 79,
+"name": "constant-combinator",
+"position": {
+"x": 6,
+"y": 18
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-1"
+},
+"count": 1,
+"index": 1
+}
+]
+}
+}
+,
+{
+"entity_number": 80,
+"name": "constant-combinator",
+"position": {
+"x": 7,
+"y": 18
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-0"
+},
+"count": 1,
+"index": 1
+}
+]
+}
+}
+,
+{
+"entity_number": 81,
+"name": "constant-combinator",
+"position": {
+"x": 0,
+"y": 20
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-7"
+},
+"count": 1,
+"index": 1
+}
+]
+}
+}
+,
+{
+"entity_number": 82,
+"name": "constant-combinator",
+"position": {
+"x": 1,
+"y": 20
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-6"
+},
+"count": 1,
+"index": 1
+}
+]
+}
+}
+,
+{
+"entity_number": 83,
+"name": "constant-combinator",
+"position": {
+"x": 2,
+"y": 20
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-5"
+},
+"count": 1,
+"index": 1
+}
+]
+,
+"is_on": false
+}
+}
+,
+{
+"entity_number": 84,
+"name": "constant-combinator",
+"position": {
+"x": 3,
+"y": 20
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-4"
+},
+"count": 1,
+"index": 1
+}
+]
+,
+"is_on": false
+}
+}
+,
+{
+"entity_number": 85,
+"name": "constant-combinator",
+"position": {
+"x": 4,
+"y": 20
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-3"
+},
+"count": 1,
+"index": 1
+}
+]
+}
+}
+,
+{
+"entity_number": 86,
+"name": "constant-combinator",
+"position": {
+"x": 5,
+"y": 20
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-2"
+},
+"count": 1,
+"index": 1
+}
+]
+,
+"is_on": false
+}
+}
+,
+{
+"entity_number": 87,
+"name": "constant-combinator",
+"position": {
+"x": 6,
+"y": 20
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-1"
+},
+"count": 1,
+"index": 1
+}
+]
+}
+}
+,
+{
+"entity_number": 88,
+"name": "constant-combinator",
+"position": {
+"x": 7,
+"y": 20
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-0"
+},
+"count": 1,
+"index": 1
+}
+]
+,
+"is_on": false
+}
+}
+,
+{
+"entity_number": 89,
+"name": "constant-combinator",
+"position": {
+"x": 0,
+"y": 26
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-7"
+},
+"count": 1,
+"index": 1
+}
+]
+,
+"is_on": false
+}
+}
+,
+{
+"entity_number": 90,
+"name": "constant-combinator",
+"position": {
+"x": 1,
+"y": 26
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-6"
+},
+"count": 1,
+"index": 1
+}
+]
+,
+"is_on": false
+}
+}
+,
+{
+"entity_number": 91,
+"name": "constant-combinator",
+"position": {
+"x": 2,
+"y": 26
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-5"
+},
+"count": 1,
+"index": 1
+}
+]
+,
+"is_on": false
+}
+}
+,
+{
+"entity_number": 92,
+"name": "constant-combinator",
+"position": {
+"x": 3,
+"y": 26
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-4"
+},
+"count": 1,
+"index": 1
+}
+]
+,
+"is_on": false
+}
+}
+,
+{
+"entity_number": 93,
+"name": "constant-combinator",
+"position": {
+"x": 4,
+"y": 26
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-3"
+},
+"count": 1,
+"index": 1
+}
+]
+,
+"is_on": false
+}
+}
+,
+{
+"entity_number": 94,
+"name": "constant-combinator",
+"position": {
+"x": 5,
+"y": 26
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-2"
+},
+"count": 1,
+"index": 1
+}
+]
+,
+"is_on": false
+}
+}
+,
+{
+"entity_number": 95,
+"name": "constant-combinator",
+"position": {
+"x": 6,
+"y": 26
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-1"
+},
+"count": 1,
+"index": 1
+}
+]
+,
+"is_on": false
+}
+}
+,
+{
+"entity_number": 96,
+"name": "constant-combinator",
+"position": {
+"x": 7,
+"y": 26
+},
+"control_behavior": {
+"filters": [
+{
+"signal": {
+"type": "virtual",
+"name": "signal-0"
+},
+"count": 1,
+"index": 1
+}
+]
+,
+"is_on": false
 }
 }
         ],

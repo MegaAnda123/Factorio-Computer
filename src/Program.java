@@ -19,6 +19,41 @@ OP codes:
 1101 JUMP_NEG
 1110 JUMP_ZERO
 1111 DEC
+
+CODE:
+
+Fibonacci with overflow protection:
+
+        code(0,"LOAD_D",13);
+        code(1,"LOAD_A",15);
+        code(2,"LOAD_B",14);
+        code(3,"ADD",1);
+        code(4,"LOAD_B",15);
+        code(5,"STORE_A",15);
+        code(6,"STORE_A",14);
+        code(7,"ADD",1);
+        code(8,"STORE_A",15);
+        code(9,"SUB",12);
+        code(10,"JUMP_NEG",1);
+        number(11,0);
+        number(13,232);
+        number(14,0);
+        number(15,1);
+
+Divide cache AB:
+
+        code(0,"STORE_A",14);
+        code(1,"LOAD_C",13);
+        code(2,"LOAD_A",14);
+        code(3,"SUB",4);
+        code(4,"STORE_A",14);
+        code(5,"JUMP_NEG",9);
+        code(6,"INC",2);
+        code(7,"STORE_A",13);
+        code(8,"JUMP",1);
+        code(9,"STORE_C",15);
+        code(10,"JUMP",10);
+        number(13,0);
 */
 
 public class Program {
@@ -36,12 +71,20 @@ public class Program {
 
     public void start() {
         intPrintList();
-        number(15,1);
-        number(14,1);
-        code(0,"LOAD_A",15);
-        code(1,"LOAD_B",14);
-        code(2,"ADD",1);
-        code(3,"STORE_A",15);
+        code(0,"STORE_A",14);
+        code(1,"LOAD_C",13);
+        code(2,"LOAD_A",14);
+        code(3,"SUB",4);
+        code(4,"STORE_A",14);
+        code(5,"JUMP_NEG",9);
+        code(6,"INC",2);
+        code(7,"STORE_A",13);
+        code(8,"JUMP",1);
+        code(9,"STORE_C",15);
+        code(10,"JUMP",10);
+        number(13,0);
+
+
         finPrintList();
 
         writeToFile(convertToOneString(PrintList));
