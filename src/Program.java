@@ -87,6 +87,8 @@ public class Program {
 
         finPrintList();
 
+        System.out.println(BluePrintEncoder.EncodeBlueprint(convertToOneString(PrintList)));
+
         writeToFile(convertToOneString(PrintList));
     }
 
