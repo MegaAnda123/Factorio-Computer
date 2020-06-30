@@ -94,40 +94,42 @@ public class Program {
     int entityNumber = 1;
 
     public void intPrintList() {
-        addString(convertToOneString(readFromFile("fileheader.txt")));
+        addString(Tools.readFromFile("fileheader.txt"));
     }
 
     public void finPrintList() {
-        addString(convertToOneString(readFromFile("filefooter.txt")));
+        addString(Tools.readFromFile("filefooter.txt"));
     }
 
     public void start() {
 
-
-        intPrintList();
-
-        code16(0,"CALL",0x40);
-        code16(1,"JUMP",0);
-
-        code16(0x40,"CALL",0x80);
-        code16(0x41,"RET",0);
-
-        code16(0x80,"CALL",0xF0);
-        code16(0x81,"STORE_O",0xFF);
-        code16(0x82,"RET",0);
-
-        code16(0xF0,"INC",0xEE);
-        code16(0xF1,"RET",0);
-
-
-        finPrintList();
+        BluePrintEncoder encoder = new BluePrintEncoder("TEMP", new String[]{"signal-C", "signal-1", "signal-6"});
 
 
 
-        System.out.println(BluePrintEncoder.EncodeBlueprint(convertToOneString(PrintList)));
-        setClipBoard(BluePrintEncoder.EncodeBlueprint(convertToOneString(PrintList)));
+        //intPrintList();
 
-        writeToFile(convertToOneString(PrintList));
+        code16(0,"DISP",6);
+        character16(1,'H','e');
+        character16(2,'l','l');
+        character16(3,'o',' ');
+        character16(4,'w','o');
+        character16(5,'r','l');
+        character16(6,'d','!');
+        code16(7,"JUMP",0);
+
+
+        //finPrintList();
+
+
+
+
+
+
+        System.out.println(encoder.EncodeBlueprintMeta(convertToOneString(PrintList)));
+        Tools.setClipBoard(encoder.EncodeBlueprintMeta(convertToOneString(PrintList)));
+
+        Tools.writeToFile(convertToOneString(PrintList));
     }
 
     public void number8(int line, int number) {
@@ -146,12 +148,122 @@ public class Program {
         PrintList.addAll(gameObjects.constantCombinator(x,y, "R", n, true));
     }
 
+    public void character16(int line, char c1, char c2) {
+        int n1 = (charToInt16(c1)+0x10)*0x100;
+        int n2 = charToInt16(c2)+0x10;
+
+        number16(line,n1+n2);
+    }
+
+    public int charToInt16(char c) {
+        int i = 0;
+
+        if(c == ' ') return i; i++;
+        if(c == '!') return i; i++;
+        if(c == '"') return i; i++;
+        if(c == '#') return i; i++;
+        if(c == '$') return i; i++;
+        if(c == '%') return i; i++;
+        if(c == '&') return i; i++;
+        if(c == '\'') return i; i++;
+        if(c == '(') return i; i++;
+        if(c == ')') return i; i++;
+        if(c == '*') return i; i++;
+        if(c == '+') return i; i++;
+        if(c == ',') return i; i++;
+        if(c == '-') return i; i++;
+        if(c == '.') return i; i++;
+        if(c == '/') return i; i++;
+        if(c == '0') return i; i++;
+        if(c == '1') return i; i++;
+        if(c == '2') return i; i++;
+        if(c == '3') return i; i++;
+        if(c == '4') return i; i++;
+        if(c == '5') return i; i++;
+        if(c == '6') return i; i++;
+        if(c == '7') return i; i++;
+        if(c == '8') return i; i++;
+        if(c == '9') return i; i++;
+        if(c == ':') return i; i++;
+        if(c == ';') return i; i++;
+        if(c == '<') return i; i++;
+        if(c == '=') return i; i++;
+        if(c == '>') return i; i++;
+        if(c == '?') return i; i++;
+        if(c == '@') return i; i++;
+        if(c == 'A') return i; i++;
+        if(c == 'B') return i; i++;
+        if(c == 'C') return i; i++;
+        if(c == 'D') return i; i++;
+        if(c == 'E') return i; i++;
+        if(c == 'F') return i; i++;
+        if(c == 'G') return i; i++;
+        if(c == 'H') return i; i++;
+        if(c == 'I') return i; i++;
+        if(c == 'J') return i; i++;
+        if(c == 'K') return i; i++;
+        if(c == 'L') return i; i++;
+        if(c == 'M') return i; i++;
+        if(c == 'N') return i; i++;
+        if(c == 'O') return i; i++;
+        if(c == 'P') return i; i++;
+        if(c == 'Q') return i; i++;
+        if(c == 'R') return i; i++;
+        if(c == 'S') return i; i++;
+        if(c == 'T') return i; i++;
+        if(c == 'U') return i; i++;
+        if(c == 'V') return i; i++;
+        if(c == 'W') return i; i++;
+        if(c == 'X') return i; i++;
+        if(c == 'Y') return i; i++;
+        if(c == 'Z') return i; i++;
+        if(c == '[') return i; i++;
+        if(c == '\\') return i; i++;
+        if(c == ']') return i; i++;
+        if(c == '^') return i; i++;
+        if(c == '_') return i; i++;
+        if(c == '`') return i; i++;
+        if(c == 'a') return i; i++;
+        if(c == 'b') return i; i++;
+        if(c == 'c') return i; i++;
+        if(c == 'd') return i; i++;
+        if(c == 'e') return i; i++;
+        if(c == 'f') return i; i++;
+        if(c == 'g') return i; i++;
+        if(c == 'h') return i; i++;
+        if(c == 'i') return i; i++;
+        if(c == 'j') return i; i++;
+        if(c == 'k') return i; i++;
+        if(c == 'l') return i; i++;
+        if(c == 'm') return i; i++;
+        if(c == 'n') return i; i++;
+        if(c == 'o') return i; i++;
+        if(c == 'p') return i; i++;
+        if(c == 'q') return i; i++;
+        if(c == 'r') return i; i++;
+        if(c == 's') return i; i++;
+        if(c == 't') return i; i++;
+        if(c == 'u') return i; i++;
+        if(c == 'v') return i; i++;
+        if(c == 'w') return i; i++;
+        if(c == 'x') return i; i++;
+        if(c == 'y') return i; i++;
+        if(c == 'z') return i; i++;
+        if(c == '{') return i; i++;
+        if(c == '|') return i; i++;
+        if(c == '}') return i; i++;
+        if(c == '~') return i; i++;
+        if(c == '■') return i;
+        if(c == '\0') return -16;
+
+        return -1;
+    }
+
     public void number16(int line, int number) {
         int x = line % 16;
         int y = (int) Math.floor(line/16)*3;
         PrintList.addAll(gameObjects.constantCombinator(x,y, "R", number, true));
     }
-
 
     public boolean[] intToBinary(int number, int base) {
         final boolean[] ret = new boolean[base];
@@ -274,39 +386,6 @@ public class Program {
         return out;
     }
 
-    public void writeToFile(String string) {
-        Writer writer = null;
-
-        try {
-            writer = new BufferedWriter(new OutputStreamWriter(
-                    new FileOutputStream("blueprint.txt"), "utf-8"));
-            writer.write(string);
-            ((BufferedWriter) writer).newLine();
-        } catch (IOException ex) {
-        } finally {
-            try {writer.close();} catch (Exception ex) {/*ignore*/}
-        }
-    }
-
-    public ArrayList<String> readFromFile(String file) {
-        ArrayList<String> out = new ArrayList<String>();
-
-        try(BufferedReader br = new BufferedReader(new FileReader(file))) {
-            for(String line; (line = br.readLine()) != null; ) {
-                out.add((line + "\n"));
-            }
-        } catch (Exception e) {
-            System.out.println(e);
-        }
-        return out;
-    }
-
-    public void setClipBoard(String str) {
-        StringSelection selection = new StringSelection(str);
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-        clipboard.setContents(selection, selection);
-    }
-
     public int functions16(String function) {
         int n = 0;
         if(function.equals("LOAD_ROM")) return n; n++;
@@ -360,6 +439,7 @@ public class Program {
         if(function.equals("JUMP_N")) return n; n++;
         if(function.equals("CALL")) return n; n++;
         if(function.equals("RET")) return n; n++;
+        if(function.equals("DISP")) return n; n++;
 
 
         return -1;

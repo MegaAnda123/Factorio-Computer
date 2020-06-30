@@ -49,6 +49,7 @@
 30 JUMP_N
 31 CALL
 32 RET
+33 DISP
 
 
 

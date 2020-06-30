@@ -1,0 +1,7 @@
+	    {
+                "signal": {
+                    "type": "virtual",
+                    "name": "@name"
+                },
+                "index": @index
+            }

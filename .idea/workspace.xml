@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="997dd98e-d708-4e0a-a571-20d77cbdd4f0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16-BIT opcodes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/16-BIT opcodes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blueprint.txt" beforeDir="false" afterPath="$PROJECT_DIR$/blueprint.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compressed.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Factorio encoder/BluePrintEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Factorio encoder/BluePrintEncoder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Factorio encoder/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Factorio encoder/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BluePrintEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BluePrintEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameObjects.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,15 +36,22 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566258402439" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/PortAuthorityApp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="profiler.jvm" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="BluePrintEncoder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -62,9 +71,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="Factorio encoder" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.BluePrintEncoder" />
       </list>
     </recent_temporary>
@@ -86,6 +103,12 @@
       <workItem from="1591868091535" duration="8206000" />
       <workItem from="1591985818185" duration="102000" />
       <workItem from="1591986409716" duration="1844000" />
+      <workItem from="1592420962101" duration="157000" />
+      <workItem from="1592505885376" duration="11074000" />
+      <workItem from="1592993477120" duration="125000" />
+      <workItem from="1592993692292" duration="473000" />
+      <workItem from="1592994730905" duration="67000" />
+      <workItem from="1592994834035" duration="40071000" />
     </task>
     <servers />
   </component>
@@ -97,26 +120,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="731" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1591545503092" />
-    <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1591190016056">
+    <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1592993934455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1591190016056" />
-    <state width="932" height="268" key="GridCell.Tab.0.bottom" timestamp="1591989331575">
+    <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1592993934455" />
+    <state x="540" y="175" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1592993805535">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="932" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1591989331575" />
-    <state width="932" height="268" key="GridCell.Tab.0.center" timestamp="1591989331574">
+    <state x="540" y="175" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1592993805535" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1593464082620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="932" height="268" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1591989331574" />
-    <state width="932" height="268" key="GridCell.Tab.0.left" timestamp="1591989331574">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1593464082620" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1593538158226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="932" height="268" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1591989331574" />
-    <state width="932" height="268" key="GridCell.Tab.0.right" timestamp="1591989331574">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1593538158226" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1593538158226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="932" height="268" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1591989331574" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1593538158226" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1593538158226">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1593538158226" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1593538158226">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1593538158226" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1593088753557">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1593088753557" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1593088753557">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1593088753557" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1593088753556">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1593088753556" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1593088753557">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1593088753557" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1592993923036">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1592993923036" />
+    <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1592994733385">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1592994733385" />
+    <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1593447688291">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1593447688291" />
     <state x="540" y="175" key="editAsTableFormatDialogDimension" timestamp="1591491904442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -129,5 +188,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1591576787678" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1592506853617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1592506853617" />
   </component>
 </project>

@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+//TODO refactor...
+
 public class GameObjects {
     int entityNumber = 1;
     ArrayList<String> list;
@@ -70,9 +72,6 @@ public class GameObjects {
         this.entityNumber++;
         return list;
     }
-
-
-
 
     public void addStringln(String string) {
         list.add((string + "\n"));

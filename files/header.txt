@@ -1,0 +1,6 @@
+{
+    "blueprint": {
+        "icons": [
+	@icons
+        ],
+        "entities": [

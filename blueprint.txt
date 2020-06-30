@@ -1,23 +1,4 @@
 {
-    "blueprint": {
-        "icons": [
-            {
-                "signal": {
-                    "type": "virtual",
-                    "name": "signal-C"
-                },
-                "index": 1
-            },
-            {
-                "signal": {
-                    "type": "virtual",
-                    "name": "signal-8"
-                },
-                "index": 2
-            }
-        ],
-        "entities": [
-{
 "entity_number": 1,
 "name": "constant-combinator",
 "position": {
@@ -31,7 +12,7 @@
 "type": "virtual",
 "name": "signal-R"
 },
-"count": 12608,
+"count": 13062,
 "index": 1
 }
 ]
@@ -52,7 +33,7 @@
 "type": "virtual",
 "name": "signal-R"
 },
-"count": 11520,
+"count": 14421,
 "index": 1
 }
 ]
@@ -63,8 +44,8 @@
 "entity_number": 3,
 "name": "constant-combinator",
 "position": {
-"x": 0,
-"y": 12
+"x": 2,
+"y": 0
 },
 "control_behavior": {
 "filters": [
@@ -73,7 +54,7 @@
 "type": "virtual",
 "name": "signal-R"
 },
-"count": 12672,
+"count": 23644,
 "index": 1
 }
 ]
@@ -84,8 +65,8 @@
 "entity_number": 4,
 "name": "constant-combinator",
 "position": {
-"x": 1,
-"y": 12
+"x": 3,
+"y": 0
 },
 "control_behavior": {
 "filters": [
@@ -94,7 +75,7 @@
 "type": "virtual",
 "name": "signal-R"
 },
-"count": 12800,
+"count": 24336,
 "index": 1
 }
 ]
@@ -105,8 +86,8 @@
 "entity_number": 5,
 "name": "constant-combinator",
 "position": {
-"x": 0,
-"y": 24
+"x": 4,
+"y": 0
 },
 "control_behavior": {
 "filters": [
@@ -115,7 +96,7 @@
 "type": "virtual",
 "name": "signal-R"
 },
-"count": 12784,
+"count": 26463,
 "index": 1
 }
 ]
@@ -126,8 +107,8 @@
 "entity_number": 6,
 "name": "constant-combinator",
 "position": {
-"x": 1,
-"y": 24
+"x": 5,
+"y": 0
 },
 "control_behavior": {
 "filters": [
@@ -136,7 +117,7 @@
 "type": "virtual",
 "name": "signal-R"
 },
-"count": 8191,
+"count": 25180,
 "index": 1
 }
 ]
@@ -147,8 +128,8 @@
 "entity_number": 7,
 "name": "constant-combinator",
 "position": {
-"x": 2,
-"y": 24
+"x": 6,
+"y": 0
 },
 "control_behavior": {
 "filters": [
@@ -157,7 +138,7 @@
 "type": "virtual",
 "name": "signal-R"
 },
-"count": 12800,
+"count": 21521,
 "index": 1
 }
 ]
@@ -168,8 +149,8 @@
 "entity_number": 8,
 "name": "constant-combinator",
 "position": {
-"x": 0,
-"y": 45
+"x": 7,
+"y": 0
 },
 "control_behavior": {
 "filters": [
@@ -178,37 +159,10 @@
 "type": "virtual",
 "name": "signal-R"
 },
-"count": 11246,
+"count": 11520,
 "index": 1
 }
 ]
 }
-}
-,
-{
-"entity_number": 9,
-"name": "constant-combinator",
-"position": {
-"x": 1,
-"y": 45
-},
-"control_behavior": {
-"filters": [
-{
-"signal": {
-"type": "virtual",
-"name": "signal-R"
-},
-"count": 12800,
-"index": 1
-}
-]
-}
-}
-        ],
-        "item": "blueprint",
-        "label": "8bit compiler code",
-        "version": 68722819072
-    }
 }
 
