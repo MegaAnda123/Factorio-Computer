@@ -145,7 +145,7 @@ public class Program {
         int n = functions16(instruction)*0x100 + address;
         int x = line % 16;
         int y = (int) Math.floor(line/16)*3;
-        PrintList.addAll(gameObjects.constantCombinator(x,y, "R", n, true));
+        PrintList.addAll(gameObjects.constantCombinator(x,y, new GameObjects.Filter("virtual","signal-R",n), true));
     }
 
     public void character16(int line, char c1, char c2) {
@@ -262,7 +262,7 @@ public class Program {
     public void number16(int line, int number) {
         int x = line % 16;
         int y = (int) Math.floor(line/16)*3;
-        PrintList.addAll(gameObjects.constantCombinator(x,y, "R", number, true));
+        PrintList.addAll(gameObjects.constantCombinator(x,y, new GameObjects.Filter("virtual","signal-R",number), true));
     }
 
     public boolean[] intToBinary(int number, int base) {

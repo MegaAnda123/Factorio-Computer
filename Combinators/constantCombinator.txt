@@ -1,0 +1,14 @@
+            {
+                "entity_number": @entity_number,
+                "name": "constant-combinator",
+                "position": {
+                    "x": @x,
+                    "y": @y
+                },
+                "control_behavior": {
+                    "filters": [
+                        @filters
+                    ],
+                    "is_on": @is_on
+                }
+            }

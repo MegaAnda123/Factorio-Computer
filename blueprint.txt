@@ -1,168 +1,177 @@
-{
-"entity_number": 1,
-"name": "constant-combinator",
-"position": {
-"x": 0,
-"y": 0
-},
-"control_behavior": {
-"filters": [
-{
-"signal": {
-"type": "virtual",
-"name": "signal-R"
-},
-"count": 13062,
-"index": 1
-}
-]
-}
-}
-,
-{
-"entity_number": 2,
-"name": "constant-combinator",
-"position": {
-"x": 1,
-"y": 0
-},
-"control_behavior": {
-"filters": [
-{
-"signal": {
-"type": "virtual",
-"name": "signal-R"
-},
-"count": 14421,
-"index": 1
-}
-]
-}
-}
-,
-{
-"entity_number": 3,
-"name": "constant-combinator",
-"position": {
-"x": 2,
-"y": 0
-},
-"control_behavior": {
-"filters": [
-{
-"signal": {
-"type": "virtual",
-"name": "signal-R"
-},
-"count": 23644,
-"index": 1
-}
-]
-}
-}
-,
-{
-"entity_number": 4,
-"name": "constant-combinator",
-"position": {
-"x": 3,
-"y": 0
-},
-"control_behavior": {
-"filters": [
-{
-"signal": {
-"type": "virtual",
-"name": "signal-R"
-},
-"count": 24336,
-"index": 1
-}
-]
-}
-}
-,
-{
-"entity_number": 5,
-"name": "constant-combinator",
-"position": {
-"x": 4,
-"y": 0
-},
-"control_behavior": {
-"filters": [
-{
-"signal": {
-"type": "virtual",
-"name": "signal-R"
-},
-"count": 26463,
-"index": 1
-}
-]
-}
-}
-,
-{
-"entity_number": 6,
-"name": "constant-combinator",
-"position": {
-"x": 5,
-"y": 0
-},
-"control_behavior": {
-"filters": [
-{
-"signal": {
-"type": "virtual",
-"name": "signal-R"
-},
-"count": 25180,
-"index": 1
-}
-]
-}
-}
-,
-{
-"entity_number": 7,
-"name": "constant-combinator",
-"position": {
-"x": 6,
-"y": 0
-},
-"control_behavior": {
-"filters": [
-{
-"signal": {
-"type": "virtual",
-"name": "signal-R"
-},
-"count": 21521,
-"index": 1
-}
-]
-}
-}
-,
-{
-"entity_number": 8,
-"name": "constant-combinator",
-"position": {
-"x": 7,
-"y": 0
-},
-"control_behavior": {
-"filters": [
-{
-"signal": {
-"type": "virtual",
-"name": "signal-R"
-},
-"count": 11520,
-"index": 1
-}
-]
-}
-}
+            {
+                "entity_number": 1,
+                "name": "constant-combinator",
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "control_behavior": {
+                    "filters": [
+                        			{
+                            "signal": {
+                                "type": "virtual",
+                                "name": "signal-R"
+                            },
+                            "count": 13062,
+                            "index": 1
+                        }
+
+                    ],
+                    "is_on": true
+                }
+            }
+,            {
+                "entity_number": 2,
+                "name": "constant-combinator",
+                "position": {
+                    "x": 1,
+                    "y": 0
+                },
+                "control_behavior": {
+                    "filters": [
+                        			{
+                            "signal": {
+                                "type": "virtual",
+                                "name": "signal-R"
+                            },
+                            "count": 14421,
+                            "index": 1
+                        }
+
+                    ],
+                    "is_on": true
+                }
+            }
+,            {
+                "entity_number": 3,
+                "name": "constant-combinator",
+                "position": {
+                    "x": 2,
+                    "y": 0
+                },
+                "control_behavior": {
+                    "filters": [
+                        			{
+                            "signal": {
+                                "type": "virtual",
+                                "name": "signal-R"
+                            },
+                            "count": 23644,
+                            "index": 1
+                        }
+
+                    ],
+                    "is_on": true
+                }
+            }
+,            {
+                "entity_number": 4,
+                "name": "constant-combinator",
+                "position": {
+                    "x": 3,
+                    "y": 0
+                },
+                "control_behavior": {
+                    "filters": [
+                        			{
+                            "signal": {
+                                "type": "virtual",
+                                "name": "signal-R"
+                            },
+                            "count": 24336,
+                            "index": 1
+                        }
+
+                    ],
+                    "is_on": true
+                }
+            }
+,            {
+                "entity_number": 5,
+                "name": "constant-combinator",
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "control_behavior": {
+                    "filters": [
+                        			{
+                            "signal": {
+                                "type": "virtual",
+                                "name": "signal-R"
+                            },
+                            "count": 26463,
+                            "index": 1
+                        }
+
+                    ],
+                    "is_on": true
+                }
+            }
+,            {
+                "entity_number": 6,
+                "name": "constant-combinator",
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "control_behavior": {
+                    "filters": [
+                        			{
+                            "signal": {
+                                "type": "virtual",
+                                "name": "signal-R"
+                            },
+                            "count": 25180,
+                            "index": 1
+                        }
+
+                    ],
+                    "is_on": true
+                }
+            }
+,            {
+                "entity_number": 7,
+                "name": "constant-combinator",
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "control_behavior": {
+                    "filters": [
+                        			{
+                            "signal": {
+                                "type": "virtual",
+                                "name": "signal-R"
+                            },
+                            "count": 21521,
+                            "index": 1
+                        }
+
+                    ],
+                    "is_on": true
+                }
+            }
+,            {
+                "entity_number": 8,
+                "name": "constant-combinator",
+                "position": {
+                    "x": 7,
+                    "y": 0
+                },
+                "control_behavior": {
+                    "filters": [
+                        			{
+                            "signal": {
+                                "type": "virtual",
+                                "name": "signal-R"
+                            },
+                            "count": 11520,
+                            "index": 1
+                        }
+
+                    ],
+                    "is_on": true
+                }
+            }
 

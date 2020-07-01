@@ -1,6 +1,7 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 import java.util.StringJoiner;
 
@@ -10,18 +11,41 @@ public class test {
         new test();
     }
     public test() {
-        ROM16 rom = new ROM16();
+        ArrayList<GameObjects.Filter> filters = new ArrayList<>();
+        filters.add(new GameObjects.Filter("virtual","signal-A",1));
+        filters.add(new GameObjects.Filter("virtual","signal-A",1));
+        filters.add(new GameObjects.Filter("virtual","signal-A",1));
+        filters.add(new GameObjects.Filter("virtual","signal-A",1));
+        filters.add(new GameObjects.Filter("virtual","signal-A",1));
+        filters.add(new GameObjects.Filter("virtual","signal-A",1));
+        filters.add(new GameObjects.Filter("virtual","signal-A",1));
+        filters.add(new GameObjects.Filter("virtual","signal-A",1));
+        filters.add(new GameObjects.Filter("virtual","signal-A",1));
+        filters.add(new GameObjects.Filter("virtual","signal-A",1));
+        filters.add(new GameObjects.Filter("virtual","signal-A",1));
+        filters.add(new GameObjects.Filter("virtual","signal-A",1));
+        filters.add(new GameObjects.Filter("virtual","signal-A",1));
+        filters.add(new GameObjects.Filter("virtual","signal-A",1));
+        filters.add(new GameObjects.Filter("virtual","signal-A",1));
+        filters.add(new GameObjects.Filter("virtual","signal-A",1));
+        filters.add(new GameObjects.Filter("virtual","signal-A",1));
+        filters.add(new GameObjects.Filter("virtual","signal-A",1));
+        filters.add(new GameObjects.Filter("virtual","signal-A",1));
+        filters.add(new GameObjects.Filter("virtual","signal-A",1));
+        filters.add(new GameObjects.Filter("virtual","signal-A",1));
+        filters.add(new GameObjects.Filter("virtual","signal-A",1));
+        filters.add(new GameObjects.Filter("virtual","signal-A",1));
+        filters.add(new GameObjects.Filter("virtual","signal-A",1));
 
-        rom.addLine(0,69);
-        rom.addLine(0xff,700);
+        System.out.println(filters.size());
 
+        List<GameObjects.Filter> Temp = filters.subList(0,18);
 
-        System.out.println(rom.getJson());
+        System.out.println(Temp.get(0).count);
 
-        BluePrintEncoder encoder = new BluePrintEncoder();
-        Tools.setClipBoard(encoder.EncodeBlueprintMeta(rom.getJson()));
+        GameObjects gameObjects = new GameObjects();
 
-        System.out.println(encoder.EncodeBlueprintMeta(rom.getJson()));
+        gameObjects.constantCombinator(1,2,filters,true);
 
 
     }

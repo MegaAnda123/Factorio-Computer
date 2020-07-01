@@ -23,7 +23,7 @@ public class ROM16 {
                 int x = i % 16;
                 int y = (int) Math.floor(i / 16) * 3;
                 //TODO fix trash string list issue!!
-                ArrayList<String> temp = gameObjects.constantCombinator(x, y, "R", lines[i], true);
+                ArrayList<String> temp = gameObjects.constantCombinator(x, y, new GameObjects.Filter("virtual","signal-R",lines[i]), true);
                 for(String string : temp) {
                     out.append(string);
                 }
