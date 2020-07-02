@@ -19,10 +19,10 @@ public class GameObjects {
     public ArrayList<String> constantCombinator(int x, int y, String signal, boolean bool) {
         ArrayList<Filter> filters = new ArrayList<>();
         filters.add(new Filter("virtual",signal,1));
-        return constantCombinator(x,y,filters,bool);
+        ArrayList<String> temp = new ArrayList<>();
+        temp.add(constantCombinator(x,y,filters,bool));
+        return temp;
     }
-
-    //TODO make method output String not ArrayList
 
     /**
      * Generates json string for constant combinator using a single filter input.
@@ -31,7 +31,7 @@ public class GameObjects {
      * @param filter Single filter object with filter values: type, name, count.
      * @return json string for constant combinator.
      */
-    public ArrayList<String> constantCombinator(int x, int y, Filter filter) {
+    public String constantCombinator(int x, int y, Filter filter) {
         ArrayList<Filter> filters = new ArrayList<>();
         filters.add(filter);
         return constantCombinator(x,y,filters,true);
@@ -45,7 +45,7 @@ public class GameObjects {
      * @param isOn is constant combinator turned on.
      * @return json string for constant combinator.
      */
-    public ArrayList<String> constantCombinator(int x, int y, ArrayList<Filter> filters, boolean isOn) {
+    public String constantCombinator(int x, int y, ArrayList<Filter> filters, boolean isOn) {
         StringBuilder stringBuilder = new StringBuilder();
 
         String out = "";
@@ -79,17 +79,10 @@ public class GameObjects {
             stringBuilder.append(temp);
             if(i+1 != list.size()) {stringBuilder.append(",");}
         }
-
         out = out.replaceFirst("@filters",stringBuilder.toString());
 
-
-        //TODO redo (output string)
-        ArrayList<String> temp = new ArrayList<>();
-
-        temp.add(out);
-
         this.entityNumber++;
-        return temp;
+        return out;
     }
 
     //TODO refactor...

@@ -1,8 +1,5 @@
-import java.util.ArrayList;
-
 public class ROM16 {
     private int[] lines = new int[256];
-
 
     public ROM16() {}
 
@@ -19,19 +16,20 @@ public class ROM16 {
         StringBuilder out = new StringBuilder();
 
         for(int i = 0; i<lines.length; i++) {
-            //if(lines[i]!=0) {
-                int x = i % 16;
-                int y = (int) Math.floor(i / 16) * 3;
-                //TODO fix trash string list issue!!
-                ArrayList<String> temp = gameObjects.constantCombinator(x, y, new GameObjects.Filter("virtual","signal-R",lines[i]), true);
-                for(String string : temp) {
-                    out.append(string);
-                }
-
-
-            //}
+            int x = i % 16;
+            int y = (int) Math.floor(i / 16) * 3;
+            out.append(gameObjects.constantCombinator(x, y, new GameObjects.Filter("virtual","signal-R",lines[i])));
         }
      return out.toString();
+    }
+
+    public String getBluePrint() {
+        return getBluePrint("16-BIT code", new String[]{"signal-1", "signal-6", "signal-C"});
+    }
+
+    public String getBluePrint(String name, String[] icons) {
+        BluePrintEncoder bluePrintEncoder = new BluePrintEncoder(name,icons);
+        return bluePrintEncoder.EncodeBlueprintMeta(getJson());
     }
 
 }

@@ -1,7 +1,3 @@
-import java.awt.*;
-import java.awt.datatransfer.Clipboard;
-import java.awt.datatransfer.StringSelection;
-import java.io.*;
 import java.util.ArrayList;
 
 /*
@@ -90,6 +86,8 @@ Power of two to overflow:
 public class Program {
     GameObjects gameObjects = new GameObjects();
 
+    //TODO remove
+
     ArrayList<String> PrintList = new ArrayList<String>();
     int entityNumber = 1;
 
@@ -145,7 +143,7 @@ public class Program {
         int n = functions16(instruction)*0x100 + address;
         int x = line % 16;
         int y = (int) Math.floor(line/16)*3;
-        PrintList.addAll(gameObjects.constantCombinator(x,y, new GameObjects.Filter("virtual","signal-R",n), true));
+        PrintList.add(gameObjects.constantCombinator(x,y, new GameObjects.Filter("virtual","signal-R",n)));
     }
 
     public void character16(int line, char c1, char c2) {
@@ -262,7 +260,7 @@ public class Program {
     public void number16(int line, int number) {
         int x = line % 16;
         int y = (int) Math.floor(line/16)*3;
-        PrintList.addAll(gameObjects.constantCombinator(x,y, new GameObjects.Filter("virtual","signal-R",number), true));
+        PrintList.add(gameObjects.constantCombinator(x,y, new GameObjects.Filter("virtual","signal-R",number)));
     }
 
     public boolean[] intToBinary(int number, int base) {

@@ -8,10 +8,6 @@ public class Assembler16 {
 
     }
 
-
-
-
-
     /**
      * Pars instruction to numerical value and shift it 8 bits left and add extra.
      * @param instruction instruction in string from
@@ -40,7 +36,5 @@ public class Assembler16 {
             throw new InstructionInvalidException("\"" + instruction + "\" is not recognised as a instruction.");
         }
     }
-
-
 
 }

@@ -1,13 +1,10 @@
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
-import java.util.StringJoiner;
 
 public class test {
 
-    public static void main(String[] args) throws FileNotFoundException, InstructionInvalidException {
+    public static void main(String[] args) {
         new test();
     }
     public test() {
@@ -46,6 +43,17 @@ public class test {
         GameObjects gameObjects = new GameObjects();
 
         gameObjects.constantCombinator(1,2,filters,true);
+
+        ROM16 rom16 = new ROM16();
+
+        rom16.addLine(0,96);
+        rom16.addLine(1,69);
+        rom16.addLine(0xff,700);
+
+
+        System.out.println(rom16.getBluePrint());
+        Tools.setClipBoard(rom16.getBluePrint());
+
 
 
     }
