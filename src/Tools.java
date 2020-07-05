@@ -2,7 +2,6 @@ import java.awt.*;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.io.*;
-import java.util.ArrayList;
 
 public class Tools {
 

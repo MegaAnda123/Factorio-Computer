@@ -12,7 +12,7 @@
                                 "type": "virtual",
                                 "name": "signal-R"
                             },
-                            "count": 13062,
+                            "count": 13066,
                             "index": 1
                         }
 
@@ -34,7 +34,7 @@
                                 "type": "virtual",
                                 "name": "signal-R"
                             },
-                            "count": 14421,
+                            "count": 14929,
                             "index": 1
                         }
 
@@ -56,7 +56,7 @@
                                 "type": "virtual",
                                 "name": "signal-R"
                             },
-                            "count": 23644,
+                            "count": 21860,
                             "index": 1
                         }
 
@@ -78,7 +78,7 @@
                                 "type": "virtual",
                                 "name": "signal-R"
                             },
-                            "count": 24336,
+                            "count": 4184,
                             "index": 1
                         }
 
@@ -100,7 +100,7 @@
                                 "type": "virtual",
                                 "name": "signal-R"
                             },
-                            "count": 26463,
+                            "count": 21860,
                             "index": 1
                         }
 
@@ -122,7 +122,7 @@
                                 "type": "virtual",
                                 "name": "signal-R"
                             },
-                            "count": 25180,
+                            "count": 21776,
                             "index": 1
                         }
 
@@ -144,7 +144,7 @@
                                 "type": "virtual",
                                 "name": "signal-R"
                             },
-                            "count": 21521,
+                            "count": 14421,
                             "index": 1
                         }
 
@@ -157,6 +157,94 @@
                 "name": "constant-combinator",
                 "position": {
                     "x": 7,
+                    "y": 0
+                },
+                "control_behavior": {
+                    "filters": [
+                        			{
+                            "signal": {
+                                "type": "virtual",
+                                "name": "signal-R"
+                            },
+                            "count": 24148,
+                            "index": 1
+                        }
+
+                    ],
+                    "is_on": true
+                }
+            }
+,            {
+                "entity_number": 9,
+                "name": "constant-combinator",
+                "position": {
+                    "x": 8,
+                    "y": 0
+                },
+                "control_behavior": {
+                    "filters": [
+                        			{
+                            "signal": {
+                                "type": "virtual",
+                                "name": "signal-R"
+                            },
+                            "count": 25181,
+                            "index": 1
+                        }
+
+                    ],
+                    "is_on": true
+                }
+            }
+,            {
+                "entity_number": 10,
+                "name": "constant-combinator",
+                "position": {
+                    "x": 9,
+                    "y": 0
+                },
+                "control_behavior": {
+                    "filters": [
+                        			{
+                            "signal": {
+                                "type": "virtual",
+                                "name": "signal-R"
+                            },
+                            "count": 24414,
+                            "index": 1
+                        }
+
+                    ],
+                    "is_on": true
+                }
+            }
+,            {
+                "entity_number": 11,
+                "name": "constant-combinator",
+                "position": {
+                    "x": 10,
+                    "y": 0
+                },
+                "control_behavior": {
+                    "filters": [
+                        			{
+                            "signal": {
+                                "type": "virtual",
+                                "name": "signal-R"
+                            },
+                            "count": 21860,
+                            "index": 1
+                        }
+
+                    ],
+                    "is_on": true
+                }
+            }
+,            {
+                "entity_number": 12,
+                "name": "constant-combinator",
+                "position": {
+                    "x": 11,
                     "y": 0
                 },
                 "control_behavior": {

@@ -107,14 +107,18 @@ public class Program {
 
         //intPrintList();
 
-        code16(0,"DISP",6);
-        character16(1,'H','e');
-        character16(2,'l','l');
-        character16(3,'o',' ');
-        character16(4,'w','o');
-        character16(5,'r','l');
-        character16(6,'d','!');
-        code16(7,"JUMP",0);
+        code16(0,"DISP",10);
+        character16(1,'J','a');
+        character16(2,'e','t');
+        character16(3,' ','h');
+        character16(4,'e','t');
+        character16(5,'e',' ');
+        character16(6,'H','e');
+        character16(7,'n','d');
+        character16(8,'r','m');
+        character16(9,'o','n');
+        character16(10,'e','t');
+        code16(11,"JUMP",0);
 
 
         //finPrintList();
@@ -362,9 +366,7 @@ public class Program {
 
     public void addCombinator(int x, int y, boolean bool) {
         int signalNumber = (7 - x);
-
         PrintList.addAll(gameObjects.constantCombinator(x,y,String.valueOf(signalNumber),bool));
-
     }
 
     public void addString(String string) {

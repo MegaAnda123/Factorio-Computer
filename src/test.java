@@ -1,4 +1,3 @@
-import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -54,8 +53,15 @@ public class test {
         System.out.println(rom16.getBluePrint());
         Tools.setClipBoard(rom16.getBluePrint());
 
+        System.out.println();
 
+        Assembler16 assembler16 = new Assembler16();
 
+        try {
+            System.out.println(assembler16.parserLevel0("LOAD_A 0"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
 }

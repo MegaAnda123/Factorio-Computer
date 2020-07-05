@@ -106,6 +106,7 @@ public class GameObjects {
         list.add((string + "\n"));
     }
 
+    //TODO add valid filter check?
     /**
      * Filter class for object to hold filter values
      */
