@@ -107,18 +107,21 @@ public class Program {
 
         //intPrintList();
 
-        code16(0,"DISP",10);
-        character16(1,'J','a');
-        character16(2,'e','t');
-        character16(3,' ','h');
-        character16(4,'e','t');
-        character16(5,'e',' ');
-        character16(6,'H','e');
-        character16(7,'n','d');
-        character16(8,'r','m');
-        character16(9,'o','n');
-        character16(10,'e','t');
-        code16(11,"JUMP",0);
+        code16(0, "LOAD_A", 255);
+        code16(1,"LOAD_B", 254);
+        code16(2, "ADD", 1);
+        code16(3, "LOAD_B", 255);
+        code16(4, "STORE_A", 255);
+        code16(5, "STORE_A", 254);
+        code16(6, "ADD",1);
+        code16(7, "STORE_A", 255);
+        code16(8, "SUB", 0x30);
+        code16(9,"JUMP_O", 11);
+        code16(10, "JUMP", 0);
+        number16(11,0);
+
+        number16(254,0);
+        number16(255, 1);
 
 
         //finPrintList();

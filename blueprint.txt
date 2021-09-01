@@ -12,7 +12,7 @@
                                 "type": "virtual",
                                 "name": "signal-R"
                             },
-                            "count": 13066,
+                            "count": 511,
                             "index": 1
                         }
 
@@ -34,7 +34,7 @@
                                 "type": "virtual",
                                 "name": "signal-R"
                             },
-                            "count": 14929,
+                            "count": 766,
                             "index": 1
                         }
 
@@ -56,7 +56,7 @@
                                 "type": "virtual",
                                 "name": "signal-R"
                             },
-                            "count": 21860,
+                            "count": 9473,
                             "index": 1
                         }
 
@@ -78,7 +78,7 @@
                                 "type": "virtual",
                                 "name": "signal-R"
                             },
-                            "count": 4184,
+                            "count": 767,
                             "index": 1
                         }
 
@@ -100,7 +100,7 @@
                                 "type": "virtual",
                                 "name": "signal-R"
                             },
-                            "count": 21860,
+                            "count": 4607,
                             "index": 1
                         }
 
@@ -122,7 +122,7 @@
                                 "type": "virtual",
                                 "name": "signal-R"
                             },
-                            "count": 21776,
+                            "count": 4606,
                             "index": 1
                         }
 
@@ -144,7 +144,7 @@
                                 "type": "virtual",
                                 "name": "signal-R"
                             },
-                            "count": 14421,
+                            "count": 9473,
                             "index": 1
                         }
 
@@ -166,7 +166,7 @@
                                 "type": "virtual",
                                 "name": "signal-R"
                             },
-                            "count": 24148,
+                            "count": 4607,
                             "index": 1
                         }
 
@@ -188,7 +188,7 @@
                                 "type": "virtual",
                                 "name": "signal-R"
                             },
-                            "count": 25181,
+                            "count": 9776,
                             "index": 1
                         }
 
@@ -210,7 +210,7 @@
                                 "type": "virtual",
                                 "name": "signal-R"
                             },
-                            "count": 24414,
+                            "count": 11787,
                             "index": 1
                         }
 
@@ -232,7 +232,7 @@
                                 "type": "virtual",
                                 "name": "signal-R"
                             },
-                            "count": 21860,
+                            "count": 11520,
                             "index": 1
                         }
 
@@ -254,7 +254,51 @@
                                 "type": "virtual",
                                 "name": "signal-R"
                             },
-                            "count": 11520,
+                            "count": 0,
+                            "index": 1
+                        }
+
+                    ],
+                    "is_on": true
+                }
+            }
+,            {
+                "entity_number": 13,
+                "name": "constant-combinator",
+                "position": {
+                    "x": 14,
+                    "y": 45
+                },
+                "control_behavior": {
+                    "filters": [
+                        			{
+                            "signal": {
+                                "type": "virtual",
+                                "name": "signal-R"
+                            },
+                            "count": 0,
+                            "index": 1
+                        }
+
+                    ],
+                    "is_on": true
+                }
+            }
+,            {
+                "entity_number": 14,
+                "name": "constant-combinator",
+                "position": {
+                    "x": 15,
+                    "y": 45
+                },
+                "control_behavior": {
+                    "filters": [
+                        			{
+                            "signal": {
+                                "type": "virtual",
+                                "name": "signal-R"
+                            },
+                            "count": 1,
                             "index": 1
                         }
 
