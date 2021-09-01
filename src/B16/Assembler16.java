@@ -33,13 +33,17 @@ public class Assembler16 {
             return Integer.parseInt(instruction);
         } catch (Exception ignore) {
             //Try to pars hex.
+
             try {
+                if(!instruction.substring(0,2).equals("0x")) { throw new ParserException("Number pars failed");}
                 return Integer.parseInt(instruction.substring(2),16);
             } catch (Exception ignored) {}
         }
 
         //Try to pars characters.
         try {
+            if(instruction.length()!=3) {throw new CharacterInvalidException("Unexpected format");}
+            if(instruction.charAt(1)!=' ') {throw new CharacterInvalidException("Unexpected format");}
             int numericCharacters;
             numericCharacters = (parsCharacter(instruction.charAt(0)) + 0x10) * 0x100;
             numericCharacters += (parsCharacter(instruction.charAt(2)) + 0x10);
@@ -50,12 +54,13 @@ public class Assembler16 {
     }
 
     /**
+     * TODO load instructions into memory on construct (dont read file every method call).
      * Operation parser generates numerical value of given operation.
      * @param operation operation method will pars.
      * @return numerical value of operation.
      */
     public int parsOperation(String operation) throws FileNotFoundException, OperationInvalidException {
-        Scanner scanner = new Scanner(new File("16BIT\\Instruction set.csv"));
+        Scanner scanner = new Scanner(new File("src\\B16\\16BIT\\Instruction set.csv"));
         scanner.findAll(operation).findFirst();
         scanner.useDelimiter(",");
         scanner.next();
@@ -76,7 +81,7 @@ public class Assembler16 {
     public int parsCharacter(char character) throws CharacterInvalidException {
         if(character==' ') return 0;
         if(character=='\0') return -16;
-        String characters = Tools.readFromFile("16BIT\\Characters.csv");
+        String characters = Tools.readFromFile("src\\B16\\16BIT\\Characters.csv");
         String[] temp = characters.split("\n");
 
         try {
