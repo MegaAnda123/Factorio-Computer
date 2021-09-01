@@ -1,0 +1,53 @@
+INSTRUCTION,DESCRIPTION,8-BIT OPCODE (HEX),EXTRA
+LOAD_ROM,Load program from ROM into RAM,0,8-bit ROM number
+LOAD_A,Read RAM location into register A,1,8-bit RAM address
+LOAD_B,Read RAM location into register B,2,8-bit RAM address
+LOAD_C,Read RAM location into register C,3,8-bit RAM address
+LOAD_D,Read RAM location into register D,4,8-bit RAM address
+LOAD_E,Read RAM location into register E,5,8-bit RAM address
+LOAD_F,Read RAM location into register F,6,8-bit RAM address
+LOAD_G,Read RAM location into register G,7,8-bit RAM address
+LOAD_H,Read RAM location into register H,8,8-bit RAM address
+LOAD_I,Read RAM location into register I,9,8-bit RAM address
+LOAD_J,Read RAM location into register J,0A,8-bit RAM address
+LOAD_K,Read RAM location into register K,0B,8-bit RAM address
+LOAD_L,Read RAM location into register L,0C,8-bit RAM address
+LOAD_M,Read RAM location into register M,0D,8-bit RAM address
+LOAD_N,Read RAM location into register N,0E,8-bit RAM address
+LOAD_O,Read RAM location into register O,0F,8-bit RAM address
+LOAD_P,Read RAM location into register P,10,8-bit RAM address
+STORE_A,Write from register A into RAM location,11,8-bit RAM address
+STORE_B,Write from register B into RAM location,12,8-bit RAM address
+STORE_C,Write from register C into RAM location,13,8-bit RAM address
+STORE_D,Write from register D into RAM location,14,8-bit RAM address
+STORE_E,Write from register E into RAM location,15,8-bit RAM address
+STORE_F,Write from register F into RAM location,16,8-bit RAM address
+STORE_G,Write from register G into RAM location,17,8-bit RAM address
+STORE_H,Write from register H into RAM location,18,8-bit RAM address
+STORE_I,Write from register I into RAM location,19,8-bit RAM address
+STORE_J,Write from register J into RAM location,1A,8-bit RAM address
+STORE_K,Write from register K into RAM location,1B,8-bit RAM address
+STORE_L,Write from register L into RAM location,1C,8-bit RAM address
+STORE_M,Write from register M into RAM location,1D,8-bit RAM address
+STORE_N,Write from register N into RAM location,1E,8-bit RAM address
+STORE_O,Write from register O into RAM location,1F,8-bit RAM address
+STORE_P,Write from register P into RAM location,20,8-bit RAM address
+AND,And two registers. Store result into register A,21,2 4-bit register ID's
+OR,Or two registers. Store result into register A,22,2 4-bit register ID's
+XOR,Xor two registers. Store result into register A,23,2 4-bit register ID's
+NOT,Not one register. Store result into register A,24,1 4-bit register ID
+ADD,Add two registers. Store result into register A,25,2 4-bit register ID's
+SUB,Subtract two registers. Store result into register A,26,2 4-bit register ID's
+MUL,Multiply two registers. Store result into register A,27,2 4-bit register ID's
+DIV,Divide two registers. Store result into register A,28,2 4-bit register ID's
+POW,Power two registers. Store result into register A,29,2 4-bit register ID's
+MOD,Modulo two registers. Store result into register A,2A,2 4-bit register ID's
+INC,Increment one register. Store result into register,2B,2 4-bit register ID's
+DEC,Decrement one register. Store result into register,2C,2 4-bit register ID's
+JUMP,Jump to RAM location,2D,8-bit RAM address
+JUMP_O,Jump to RAM location if overflow,2E,8-bit RAM address
+JUMP_Z,Jump to RAM location if zero,2F,8-bit RAM address
+JUMP_N,Jump to RAM location if negative,30,8-bit RAM address
+CALL,Add current RAM location to call stack and goto subroutine,31,8-bit RAM address
+RET,Pop RAM address from call stack and goto it,32,
+DISP,Display 8-bit characters stores in following RAM addresses,33,Offset for string length

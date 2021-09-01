@@ -57,16 +57,16 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="profiler.jvm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Andre\Desktop\CODE\Factorio-encoder\src\Deprecated" />
+      <recent name="C:\Users\Andre\Desktop\CODE\Factorio-encoder" />
+      <recent name="C:\Users\Andre\Desktop\CODE\Factorio-encoder\src\B16" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="BluePrintEncoder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BluePrintEncoder" />
-      <module name="Factorio encoder" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Factorio encoder" />
@@ -78,7 +78,7 @@
       </method>
     </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="Deprecated.test" />
       <module name="Factorio encoder" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,11 +97,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Assembler16Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Factorio encoder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="B16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="B16" />
+      <option name="MAIN_CLASS_NAME" value="B16.Assembler16Test" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="TestNG.Assembler16Test" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="TestNG.Assembler16Test" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.BluePrintEncoder" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +162,7 @@
       <workItem from="1617046597956" duration="124000" />
       <workItem from="1617046950306" duration="197000" />
       <workItem from="1630412255060" duration="7535000" />
-      <workItem from="1630500056900" duration="1193000" />
+      <workItem from="1630500056900" duration="4870000" />
     </task>
     <servers />
   </component>
@@ -148,25 +170,45 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1630419425296">
+    <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1630513892898">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1630513892898" />
+    <state x="690" y="296" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1630510532131">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="296" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1630510532131" />
+    <state x="743" y="410" width="433" height="257" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1630510550285">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="743" y="410" width="433" height="257" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1630510550285" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1630513805652">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@-1920.0.1920.1080" timestamp="1630413176516" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1630419425296" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1630419425295">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1630513805652" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1630513805652">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@-1920.0.1920.1080" timestamp="1630413176516" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1630419425295" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1630419425295">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1630513805652" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1630513805652">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@-1920.0.1920.1080" timestamp="1630413176515" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1630419425295" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1630419425295">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1630513805652" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1630513805652">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@-1920.0.1920.1080" timestamp="1630413176516" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1630419425295" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1630513805652" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1630513550016">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1630513550016" />
+    <state x="664" y="412" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1630513580942">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="664" y="412" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1630513580942" />
   </component>
 </project>
