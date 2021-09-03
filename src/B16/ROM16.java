@@ -4,11 +4,17 @@ import Tools.*;
 
 public class ROM16 {
     private int[] lines = new int[256];
+    private int autoLine = 0;
 
     public ROM16() {}
 
     public void addLine(int line, int value) {
         lines[line] = value;
+    }
+    public void addLine(int value) {
+        addLine(autoLine, value);
+        //TODO add check for collision when incrementing (jump over written lines).
+        autoLine++;
     }
 
     public void clearROM() {

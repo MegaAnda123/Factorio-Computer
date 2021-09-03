@@ -9,6 +9,11 @@ public class Assembler16 {
     public Assembler16() {
     }
 
+    //TODO
+    public int parserLevel1(String instruction) throws ParserException {
+        return 0;
+    }
+
     /**
      * Basic assembly level syntax detection.
      * Level 0 parser tries to pars instruction as a operation, number or character if all fails parser exception is thrown.
@@ -21,36 +26,68 @@ public class Assembler16 {
     public int parserLevel0(String instruction) throws ParserException {
         //Try to pars operation.
         try {
-            int numericOperation;
-            numericOperation = parsOperation(instruction.split(" ")[0]); //Pars operation form string to numeric value.
-            numericOperation *=0x100; //Shift operation 8 bits left.
-            numericOperation += Integer.parseInt(instruction.split(" ")[1]); // Add extra.
-            return numericOperation;
+            return parsOperationLevel0(instruction);
         } catch (Exception ignored) {}
 
         //Try to pars number.
         try {
-            return Integer.parseInt(instruction);
-        } catch (Exception ignore) {
-            //Try to pars hex.
-
-            try {
-                if(!instruction.substring(0,2).equals("0x")) { throw new ParserException("Number pars failed");}
-                return Integer.parseInt(instruction.substring(2),16);
-            } catch (Exception ignored) {}
-        }
+            return parsNumberLevel0(instruction);
+        } catch (Exception ignored) {}
 
         //Try to pars characters.
         try {
-            if(instruction.length()!=3) {throw new CharacterInvalidException("Unexpected format");}
-            if(instruction.charAt(1)!=' ') {throw new CharacterInvalidException("Unexpected format");}
-            int numericCharacters;
-            numericCharacters = (parsCharacter(instruction.charAt(0)) + 0x10) * 0x100;
-            numericCharacters += (parsCharacter(instruction.charAt(2)) + 0x10);
-            return numericCharacters;
+            return parsCharactersLevel0(instruction);
         } catch (Exception ignored) {}
 
         throw new ParserException("Instruction: \"" +  instruction + "\" could not be parsed.");
+    }
+
+    /**
+     * Operation parser for parserLevel0.
+     * Operation parser generates numerical value of given operation and shifts it 8 bits left and adds address values.
+     * @param instruction operation method will pars.
+     * @return numerical value of operation.
+     * @throws OperationInvalidException
+     * @throws FileNotFoundException
+     */
+    private int parsOperationLevel0(String instruction) throws OperationInvalidException, FileNotFoundException {
+        if(instruction.split(" ")[0].equals("a")) {throw new OperationInvalidException("Stops weird bug");}
+
+        int numericOperation;
+        numericOperation = parsOperation(instruction.split(" ")[0]); //Pars operation form string to numeric value.
+        numericOperation *= 0x100; //Shift operation 8 bits left.
+        numericOperation += Integer.parseInt(instruction.split(" ")[1]); // Add extra.
+        return numericOperation;
+    }
+
+    /**
+     * Number parser for parserLevel0.
+     * @param instruction number to be parsed.
+     * @return returns base 10 numerical value of number.
+     * @throws NumberFormatException
+     */
+    private int parsNumberLevel0(String instruction) throws NumberFormatException {
+        try {
+            return Integer.valueOf(instruction, 10);
+        } catch (Exception ignore) {
+            //Try to pars hex.
+            try {
+                if(instruction.startsWith("0x")) {
+                    return Integer.valueOf(instruction.substring(2), 16);
+                }
+            } catch (Exception ignored) {}
+        }
+        throw new NumberFormatException("Number format not recognised");
+    }
+
+
+    private int parsCharactersLevel0(String instruction) throws CharacterInvalidException {
+        if(instruction.length()!=3) {throw new CharacterInvalidException("Unexpected format");}
+        if(instruction.charAt(1)!=' ') {throw new CharacterInvalidException("Unexpected format");}
+        int numericCharacters;
+        numericCharacters = (parsCharacter(instruction.charAt(0)) + 0x10) * 0x100;
+        numericCharacters += (parsCharacter(instruction.charAt(2)) + 0x10);
+        return numericCharacters;
     }
 
     /**
