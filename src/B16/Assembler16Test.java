@@ -12,8 +12,26 @@ public class Assembler16Test {
 
     @Test
     public void parserLevel1Test() throws ParserException {
-        //TODO
-        assertEquals(0,assembler16.parserLevel1(""));
+
+        //Print tests
+        assertArrayEquals(new int[] {13060, 20818, 21332, 4181, 22104},assembler16.parserLevel1("print abcd efh"));
+        assertArrayEquals(new int[] {13061, 20818, 21332, 4181, 22104, 8464},assembler16.parserLevel1("print abcd efh1"));
+
+        //Parser level0 tests
+        assertArrayEquals(new int[] {256}, assembler16.parserLevel1("LOAD_A 0"));
+        assertArrayEquals(new int[] {123}, assembler16.parserLevel1("123"));
+        assertArrayEquals(new int[] {20818},assembler16.parserLevel1("a b"));
+
+        //Negative tests
+        assertThrows(ParserException.class, () -> assembler16.parserLevel1("NOT_A_INSTRUCTION 0"));
+        assertThrows(ParserException.class, () -> assembler16.parserLevel1("LOAD_A"));
+        assertThrows(ParserException.class, () -> assembler16.parserLevel1(""));
+        assertThrows(ParserException.class, () -> assembler16.parserLevel1("-0xff"));
+        assertThrows(ParserException.class, () -> assembler16.parserLevel1("0xgf"));
+        assertThrows(ParserException.class, () -> assembler16.parserLevel1("abc"));
+        assertThrows(ParserException.class, () -> assembler16.parserLevel1("æ æ"));
+        assertThrows(ParserException.class, () -> assembler16.parserLevel1("a æ"));
+
     }
 
     @Test

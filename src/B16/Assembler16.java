@@ -1,7 +1,8 @@
 package B16;
 
 import java.io.*;
-import java.util.Scanner;
+import java.util.*;
+
 import Tools.*;
 
 public class Assembler16 {
@@ -9,9 +10,42 @@ public class Assembler16 {
     public Assembler16() {
     }
 
-    //TODO
-    public int parserLevel1(String instruction) throws ParserException {
-        return 0;
+    /**
+     * //TODO
+     * @param instruction
+     * @return
+     * @throws ParserException
+     */
+    public int[] parserLevel1(String instruction) throws ParserException {
+        List<Integer> out = new ArrayList<>();
+
+        try {
+            switch (instruction.split(" ")[0]) {
+                case "print":
+                    char[] chars = instruction.substring(6).toCharArray();
+                    out.add(parsOperationLevel0("DISP " + (int) Math.ceil((double) chars.length/2)));
+                    for (int i = 0; i < chars.length; i+=2) {
+                        try {
+                            out.add(parsCharactersLevel0(chars[i] + " " + chars[i+1]));
+                        } catch (IndexOutOfBoundsException e) {
+                            out.add(parsCharactersLevel0(chars[i] + "  "));
+                        }
+                    }
+                    break;
+                default:
+                    throw new Exception("No high level instruction detected, fallback to parser level0");
+            }
+        } catch (Exception ignored) {
+            out.add(parserLevel0(instruction));
+        }
+
+        //Convert Integer list to int array before returning.
+        int[] temp = new int[out.size()];
+        for (int i = 0; i < out.size(); i++) {
+            temp[i] = out.get(i);
+        }
+
+        return temp;
     }
 
     /**

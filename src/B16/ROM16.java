@@ -17,6 +17,14 @@ public class ROM16 {
         autoLine++;
     }
 
+    public void addLines(int[] values) {
+        for (int i: values) {
+            addLine(i);
+        }
+    }
+
+
+
     public void clearROM() {
         lines = new int[256];
     }

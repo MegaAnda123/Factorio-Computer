@@ -6,7 +6,8 @@ import Deprecated.Deprecated;
 
 public class Main {
 
-    public static String code = "DISP 4\nT e\ns t\n.  \na 0\nJUMP 0";
+    //public static String code = "DISP 4\nT e\ns t\n.  \na 0\nJUMP 0";
+    public static String code = "print Long test string with symbols ?! /\\ ■\nJUMP 0";
 
 
     public static void main(String[] args) throws ParserException {
@@ -14,8 +15,11 @@ public class Main {
         ROM16 rom16 = new ROM16();
         String[] codeLn = code.split("\n");
 
+
+
+
         for (String c : codeLn) {
-            rom16.addLine(as.parserLevel0(c));
+            rom16.addLines(as.parserLevel1(c));
         }
 
         System.out.println(rom16.getBluePrint());
