@@ -13,7 +13,7 @@ public class ROM16 {
     }
     public void addLine(int value) {
         addLine(autoLine, value);
-        //TODO add check for collision when incrementing (jump over written lines).
+        //TODO add check for collision when incrementing (throw exception).
         autoLine++;
     }
 

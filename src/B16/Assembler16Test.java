@@ -19,6 +19,7 @@ public class Assembler16Test {
 
         //Parser level0 tests
         assertArrayEquals(new int[] {256}, assembler16.parserLevel1("LOAD_A 0"));
+        assertArrayEquals(new int[] {511}, assembler16.parserLevel1("LOAD_A 0xff"));
         assertArrayEquals(new int[] {123}, assembler16.parserLevel1("123"));
         assertArrayEquals(new int[] {20818},assembler16.parserLevel1("a b"));
 

@@ -1,0 +1,21 @@
+LOAD_B 19
+LOAD_C 20
+JUMP 6
+SUB 0xf2
+JUMP_N 6
+STORE_B 0xff
+INC 0x11
+DEC 0xf1
+MOD 0xf1
+JUMP_Z 3
+DEC 0xff
+JUMP 8
+0
+0
+0
+0
+0
+0
+0
+1
+1

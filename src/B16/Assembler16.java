@@ -90,7 +90,7 @@ public class Assembler16 {
         int numericOperation;
         numericOperation = parsOperation(instruction.split(" ")[0]); //Pars operation form string to numeric value.
         numericOperation *= 0x100; //Shift operation 8 bits left.
-        numericOperation += Integer.parseInt(instruction.split(" ")[1]); // Add extra.
+        numericOperation += Integer.decode(instruction.split(" ")[1]); // Add extra.
         return numericOperation;
     }
 
