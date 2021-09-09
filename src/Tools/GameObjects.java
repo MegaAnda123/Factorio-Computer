@@ -7,25 +7,6 @@ public class GameObjects {
     int entityNumber = 1;
     ArrayList<String> list;
 
-
-    /**
-     * Compatibility method for old methods TODO remove
-     * Generates json string for constant combinator.
-     * Sets signal number or letter (no exception handling!).
-     * @param x coordinate positive = right
-     * @param y coordinate positive = down
-     * @param signal signal number or letter (no exception handling!).
-     * @param bool if signal is on.
-     * @return return string list of json
-     */
-    public ArrayList<String> constantCombinator(int x, int y, String signal, boolean bool) {
-        ArrayList<Filter> filters = new ArrayList<>();
-        filters.add(new Filter("virtual",signal,1));
-        ArrayList<String> temp = new ArrayList<>();
-        temp.add(constantCombinator(x,y,filters,bool));
-        return temp;
-    }
-
     /**
      * Generates json string for constant combinator using a single filter input.
      * @param x coordinate positive = right

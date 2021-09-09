@@ -7,14 +7,17 @@ import Tools.*;
 
 public class Assembler16 {
 
+    File instruction;
+
     public Assembler16() {
+        instruction = new File("src\\B16\\16BIT\\Instruction set.csv");
     }
 
     /**
-     * //TODO
-     * @param instruction
-     * @return
-     * @throws ParserException
+     * Parser for higher level instructions. Falls back to parser level 0 if parsing fails.
+     * Operation format example: "LOAD_A 16","ADD 0","print Hello world!".
+     * @param instruction instruction in string form.
+     * @return integer array containing numerical value of instructions.
      */
     public int[] parserLevel1(String instruction) throws ParserException {
         List<Integer> out = new ArrayList<>();
@@ -125,13 +128,12 @@ public class Assembler16 {
     }
 
     /**
-     * TODO load instructions into memory on construct (dont read file every method call).
      * Operation parser generates numerical value of given operation.
      * @param operation operation method will pars.
      * @return numerical value of operation.
      */
     public int parsOperation(String operation) throws FileNotFoundException, OperationInvalidException {
-        Scanner scanner = new Scanner(new File("src\\B16\\16BIT\\Instruction set.csv"));
+        Scanner scanner = new Scanner(instruction);
         scanner.findAll(operation).findFirst();
         scanner.useDelimiter(",");
         scanner.next();

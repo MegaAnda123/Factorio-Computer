@@ -13,7 +13,6 @@ public class ROM16 {
     }
     public void addLine(int value) {
         addLine(autoLine, value);
-        //TODO add check for collision when incrementing (throw exception).
         autoLine++;
     }
 
@@ -27,6 +26,7 @@ public class ROM16 {
 
     public void clearROM() {
         lines = new int[256];
+        autoLine = 0;
     }
 
     public String getJson() {

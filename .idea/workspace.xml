@@ -86,7 +86,7 @@
       <recent name="C:\Users\Andre\Desktop\CODE\Factorio-encoder\src\B16" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="TestNG.Assembler16Test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Factorio encoder" />
@@ -104,13 +104,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,8 +141,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="TestNG.Assembler16Test" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
@@ -181,7 +183,8 @@
       <workItem from="1617046950306" duration="197000" />
       <workItem from="1630412255060" duration="7535000" />
       <workItem from="1630500056900" duration="4870000" />
-      <workItem from="1631036846134" duration="11303000" />
+      <workItem from="1631036846134" duration="11906000" />
+      <workItem from="1631198836479" duration="1273000" />
     </task>
     <servers />
   </component>
@@ -205,9 +208,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1630513892898" />
-    <state x="658" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1631040185502">
+    <state x="658" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1631199743941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="658" y="322" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1040/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1631199743941" />
     <state x="658" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1631040185502" />
     <state x="690" y="296" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1630510532131">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -225,24 +229,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1630524487863" />
-    <state width="1877" height="272" key="GridCell.Tab.0.bottom" timestamp="1631048544185">
+    <state width="1877" height="272" key="GridCell.Tab.0.bottom" timestamp="1631199786901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="272" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1631199786901" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@-1920.0.1920.1080" timestamp="1630413176516" />
     <state width="1877" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1631048544185" />
-    <state width="1877" height="272" key="GridCell.Tab.0.center" timestamp="1631048544185">
+    <state width="1877" height="272" key="GridCell.Tab.0.center" timestamp="1631199786901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="272" key="GridCell.Tab.0.center/-1920.0.1920.1040/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1631199786901" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@-1920.0.1920.1080" timestamp="1630413176516" />
     <state width="1877" height="272" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1631048544185" />
-    <state width="1877" height="272" key="GridCell.Tab.0.left" timestamp="1631048544184">
+    <state width="1877" height="272" key="GridCell.Tab.0.left" timestamp="1631199786901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="272" key="GridCell.Tab.0.left/-1920.0.1920.1040/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1631199786901" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@-1920.0.1920.1080" timestamp="1630413176515" />
     <state width="1877" height="272" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1631048544184" />
-    <state width="1877" height="272" key="GridCell.Tab.0.right" timestamp="1631048544185">
+    <state width="1877" height="272" key="GridCell.Tab.0.right" timestamp="1631199786901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="272" key="GridCell.Tab.0.right/-1920.0.1920.1040/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1631199786901" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@-1920.0.1920.1080" timestamp="1630413176516" />
     <state width="1877" height="272" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1040" timestamp="1631048544185" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1631040730478">
@@ -277,7 +285,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Factorio_encoder$test.ic" NAME="test Coverage Results" MODIFIED="1631040730433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Factorio_encoder$Main.ic" NAME="Main Coverage Results" MODIFIED="1630699893962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Factorio_encoder$Assembler16Test.ic" NAME="Assembler16Test Coverage Results" MODIFIED="1631044520951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Factorio_encoder$Assembler16Test.ic" NAME="Assembler16Test Coverage Results" MODIFIED="1631199479119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>B16.*</FILTER>
     </SUITE>
   </component>
